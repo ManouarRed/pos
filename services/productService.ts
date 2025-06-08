@@ -7,7 +7,7 @@ import { Product, ProductFormData, Category, Manufacturer, SubmittedSale, SaleIt
 // For local development, you might run your backend on a different port.
 // For production, if frontend and backend are on the same domain, '/api' is fine.
 // Example for local: const API_BASE_URL = 'http://localhost:3001/api';
-const API_BASE_URL = 'http://localhost:3001/api'; // Assumes proxy or same-domain deployment
+const API_BASE_URL = 'https://backendpos.doubleredcars.sk/api'; // Assumes proxy or same-domain deployment
 
 interface ApiError {
   message: string;
